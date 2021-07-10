@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+body{
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color:rgba(194,82,49,.9);
+    align-items: center;
+}
+
+.header .logo{
+    font-family: 'Kavoon', cursive;
+    font-size: 2.5em;
+    color: #2d3436;
+}
+
+.header .nav a{
+    text-decoration: none;
+    color: #2d3436;
+    font-size: 1.1em;
+    margin-right: 15px;
+}
+
+.background{
+    background-color: rgba(194,82,49,.9);
+    width: 480px;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-radius: 40px 40px 0 0;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.admin-img img{
+    display: block;
+    margin: 0 auto;
+}
+
+.admin-img h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+input {
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 8px 8px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+button{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 8px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.text{
+    display: block;
+    color: #fdcb6e;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
